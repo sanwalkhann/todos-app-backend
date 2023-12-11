@@ -1,6 +1,6 @@
 // routes.js
 const express = require('express');
-const getCurrentDate = require('../controller/getDate.js'); // Adjust the path based on your project structure
+const getCurrentDate = require('../controller/getDate.js');
 
 
 const controllers = require('../controller/todoCrud.js');
