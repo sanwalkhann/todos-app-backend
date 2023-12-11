@@ -8,7 +8,7 @@ const controllers = require('../controller/todoCrud.js');
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
+router.get('/currDate', (req, res) => {
   const currentDate = getCurrentDate();
   res.send(`${currentDate}`);
 });
